@@ -1,0 +1,72 @@
+.comment {
+  font-family: "Georgia", serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  background-color: grey;
+  border: 1px solid #ccc;
+  min-height: 100px;
+}
+
+.tab {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 1rem;
+  background-color: white;
+  color: red;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  color: red;
+  padding: 5px;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  flex-grow: 2;
+  display: flex;
+  justify-content: right;
+  min-width: 500px;
+}
+
+a {
+  flex-grow: 1;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: inherit;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 10px 20px;
+  min-height: 100vh;
+}
+
+.side nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 120px;
+}
+.tab {
+  display: block;
+  text-align: center;
+  color: red;
+  background-color: white;
+}
+
+.menus {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: blue;
+}
